@@ -1,0 +1,14 @@
+npm init -y
+npm install express
+node server.js
+npm install --save-dev nodemon
+
+#create file: server.js
+
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+}
+
+npm install dotenv
+npm run dev
